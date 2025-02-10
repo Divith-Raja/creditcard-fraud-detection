@@ -1,0 +1,467 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    /* top: 0.50px; */
+    position: fixed;
+    width: 100%;
+    background-color: #3B6790;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.404);
+}
+
+.logo {
+    /* margin-left: 20px; */
+    width: 200px;
+}
+
+#homebutton:hover {
+    text-decoration: underline 4px #23486A;
+}
+
+
+/* .dropdown{
+    position: relative;
+    list-style: none;
+    display: none;
+}
+
+#dropdownlist{
+    padding: 12px 16px;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+
+}
+
+#dropdownlist:hover{
+  background-color: white;
+  display: block;
+
+} */
+#featuresbutton:hover {
+    display: block;
+    text-decoration: underline 4px #23486A;
+}
+
+#aboutbutton:hover {
+    text-decoration: underline 4px #23486A;
+}
+
+.demo {
+    font-size: 15px;
+    transition-property: all;
+    color: #23486A;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    border: 10px;
+    /* float: right; */
+}
+
+.demo:hover {
+    border: 3px solid #23486A;
+    transition-duration: -0.90s;
+    transform: scale(0.90);
+
+
+}
+
+.login {
+    /* float: right; */
+    margin-left: 500px;
+    font-size: 15px;
+    transition-property: all;
+    background-color: #23486A;
+    color: white;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    border: 1px;
+}
+
+.login:hover {
+    border: 2px solid white;
+    transition-duration: -0.90s;
+    transform: scale(0.90);
+
+
+}
+
+.mainsection {
+    
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    height: 1000px;
+    background-repeat: round;
+    background-image: url(/creditcardfrauddetection/creditcardimages/part-bg-1.jpg);
+    background-size: cover;
+}
+
+#psectionsignup {
+    padding-top: 400px;
+}
+
+#h1sectionsignup {
+    font-size: 70px;
+}
+
+.learnmore {
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: white;
+    color: white;
+    background: transparent;
+    width: 150px;
+    height: 40px;
+}
+
+.learnmore:hover {
+    border: 3px solid #3B6790;
+    transition-duration: -0.90s;
+    transform: scale(0.90);
+}
+
+.signup {
+    border-style: none;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #23486A;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
+.signup:hover {
+    border: 3px solid white;
+    transition-duration: -0.90s;
+    transform: scale(0.90);
+}
+
+.mainsection1 {
+
+    gap: 40px;
+    height: 250px;
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.section1 {
+    width: 400px;
+    /* background-color: blue; */
+    font-size: 15px;
+    text-align: center;
+}
+
+.section2 {
+    justify-content: center;
+    /* background-color: aqua; */
+    width: 800px;
+}
+
+#p1section1 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#p2section2 {
+
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.talk {
+    border: 1px;
+    background-color: #23486A;
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    color: white;
+}
+
+.talk:hover {
+    transition-duration: -0.90s;
+    transform: scale(0.90);
+
+}
+
+.mainsection2 {
+    /* background-color: black; */
+    gap: 10px;
+    height: 250px;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.aimachine {
+    border-radius: 10px;
+    /* background-color: #23486A; */
+    width: 400px;
+    /* background-color: aqua; */
+}
+
+#h4aimachine {
+    margin-top: 20px;
+}
+
+#aiimage {
+    color: #23486A;
+    margin-left: 20px;
+    font-size: small;
+    float: left;
+}
+
+#p4animachine {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.buttonlearnmore {
+    margin-left: 20px;
+    border: 1px;
+    background: transparent;
+    color: #23486A;
+    font-weight: 700;
+}
+
+#icon1:hover {
+    width: 50px;
+    margin-left: 10px;
+    transition-duration: 1s;
+}
+
+#icon1 {
+    cursor: pointer;
+    font-size: 20px;
+    color: #23486A;
+}
+
+.analytics {
+    width: 400px;
+    /* background-color: aqua; */
+}
+
+#analyticsimage {
+
+    margin-left: 20px;
+    float: left;
+}
+
+#h4analytics {
+
+    margin-top: 20px;
+}
+
+#p5analytics {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.buttonlearnmore2 {
+    margin-left: 20px;
+    border: 1px;
+    background: transparent;
+    color: #23486A;
+    font-weight: 700;
+}
+
+.datamining {
+    width: 400px;
+    /* background-color: aqua; */
+}
+
+#dataminingimage {
+    margin-left: 20px;
+    float: left;
+}
+
+#h4datamining {
+    margin-top: 20px;
+}
+
+#p6datamining {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.buttonlearnmore3 {
+    margin-left: 20px;
+    border: 1px;
+    background: transparent;
+    color: #23486A;
+    font-weight: 700;
+}
+
+.footer {
+
+    height: 100%;
+    width: 100%;
+    background-image: url(/creditcardfrauddetection/creditcardimages/global-link-uai-1440x871.jpg);
+}
+
+.footercontent {
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    /* background-color: #23486A;  */
+
+}
+
+.footertitle {
+    text-align: center;
+
+}
+
+.footercontent1 {
+    background: transparent;
+
+}
+
+.footerpara {
+    font-size: 20px;
+    text-align: center;
+}
+
+.button1 {
+    font-size: 20px;
+    transition-property: all;
+    background-color: #23486A;
+    color: white;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    border: 1px;
+}
+
+.button1:hover {
+    border: 3px solid #3B6790;
+    transition-duration: -0.90s;
+    transform: scale(0.90);
+
+
+}
+
+.footer2 {
+    gap: 5rem;
+    margin-top: 30px;
+    /* margin: 0px; */
+    padding: 50px;
+    height: 100%;
+    width: 100%;
+    background: url(/creditcardfrauddetection/creditcardimages/fraud-dot-net-background-dots-bottom-sm.jpg);
+    color: white;
+}
+
+.footer2content {
+    gap: 5rem;
+}
+
+.footer2title {
+    font-size: 50px;
+    gap: 90px;
+    text-align: center;
+}
+
+.footer2icon {
+    color: white;
+    transition-property: all;
+    font-size: 50px;
+    gap: 5rem;
+    text-align: center;
+}
+
+.footer2copyright {
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width:1000px) {
+    .demo {
+        margin-left: 0px;
+    }
+
+    .login {
+        margin-left: 0px;
+    }
+
+    #psectionsignup {
+        font-size: 15px;
+    }
+
+    #psectionsignup {
+        font-size: 15px;
+    }
+
+    #h1sectionsignup {
+        font-size: 60px;
+    }
+
+    .mainsection1 {
+
+        margin-left: 30px;
+        gap: 80px;
+        display: inline-block;
+    }
+
+    .section1 {
+        height: 200px;
+        /* background-color: aqua; */
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .section2 {
+        text-align: left;
+        font-size: 15px;
+        width: 400px;
+    }
+
+    #p2section2 {
+        font-size: 35px;
+    }
+
+    .mainsection2 {
+        gap: 50px;
+        display: inline-block;
+    }
+
+    .footertitle {
+        font-size: 30px;
+    }
+
+    .footerpara {
+        font-size: 15px;
+    }
+
+    .button1 {
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .footer2title {
+        font-size: 25px;
+    }
+
+    .footer2icon {
+        font-size: 25px;
+    }
+
+    .footer2copyright {
+        font-size: 10px;
+    }
+}
+
+/* @media screen and (max-width:992px) {
+    #psectionsignup{
+        font-size: 10px;
+    }
+} */
