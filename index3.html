@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+</head>
+<style>
+    body {
+        background: url(/creditcardfrauddetection/creditcardimages/part-bg-1.jpg);
+        background-size: cover;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    div {
+
+        box-shadow: solid 5px 5px 5px 5px #23486A;
+        border: solid 5px 5px 5px 5px #23486A;
+        /* background: url(/creditcardfrauddetection/creditcardimages/part-bg-1.jpg); */
+        background-size: cover;
+        color: white;
+        margin: 50px;
+        text-align: center;
+    }
+
+    .logo {
+        /* margin-left: 20px; */
+        width: 300px;
+    }
+
+    .username {
+        background: transparent;
+    }
+
+    .email {
+        background: transparent;
+    }
+
+    .password {
+        background: transparent;
+    }
+
+    .number {
+        background: transparent;
+    }
+
+    .gender {
+        background: transparent;
+    }
+
+    .feedback {
+        background: transparent;
+    }
+
+    .login {
+
+        background: transparent;
+    }
+
+    #login {
+        border-radius: 10px;
+        border: white solid;
+        color: white;
+        background: transparent;
+        margin-bottom: 40px;
+        height: 40px;
+        width: 200px;
+        font-size: 25px;
+    }
+
+    #login:hover {
+        transform: scale(0.90);
+        border: #23486A solid;
+    }
+
+    .user {
+        border-radius: 10px;
+        border: white solid 1px;
+        color: white;
+        background: transparent;
+        margin-bottom: 40px;
+        height: 40px;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .mail {
+
+        border-radius: 10px;
+        border: white solid 1px;
+        color: white;
+        background: transparent;
+        margin-bottom: 40px;
+        height: 40px;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .passcode {
+        border-radius: 10px;
+        border: white solid 1px;
+        color: white;
+        background: transparent;
+        margin-bottom: 40px;
+        height: 40px;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .feed {
+        border-radius: 10px;
+        background: transparent;
+        border: white solid 1px;
+        color: white;
+    }
+
+    .num1 {
+        border-radius: 10px;
+        border: white solid 1px;
+        color: white;
+        background: transparent;
+        margin-bottom: 40px;
+        height: 40px;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    #homeicon {
+        float: right;
+        color: white;
+        font-size: 50px;
+    }
+   #homeicon:hover{
+    color: rgb(128, 128, 128);
+    transform: scale(0.90);
+    transition-duration: 0.50s;
+   }
+    @media screen and (max-width:1000px) {
+        body {
+            display: flex;
+        }
+       #homeicon{
+        margin-top: 15px;
+       }
+    }
+</style>
+
+<body>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <div>
+        <h1> <img src="/creditcardfrauddetection/creditcardimages/credit card logo.png" class="logo" alt=""><a
+                href="/creditcardfrauddetection/index.html"><i class="fa-solid fa-circle-chevron-left"
+                    id="homeicon"></i></a> </h1>
+        <h2>Login</h2>
+        <form action="/creditcardfrauddetection/index.html" method="get">
+            <div class="username">
+                <label for="Username">Username</label>
+                <input type="text" name="Username" id="Username" class="user" placeholder="Ex:Hunt" required>
+            </div>
+            <div class="email">
+                <label for="Email Id">Email Id</label>
+                <input type="email" id="email" class="mail" placeholder="abdc@gmail.com" required>
+            </div>
+            <div class="password"><label for="password">Password</label>
+                <input type="password" id="password" placeholder="password" class="passcode" maxlength="10"
+                    minlength="5">
+            </div>
+            <div class="number">
+                <label for="number">Phone Number</label>
+                <input type="text" id="ph number" class="num1" placeholder="phone number" required maxlength="10">
+            </div>
+            <!-- <label for="">Already In Premium</label>
+            <input type="checkbox"> -->
+            <!-- <div class="gender">
+                <label for="name">Male</label>
+                <input type="radio" name="gender" id="gender" required>
+                <label for="">Female</label>
+                <input type="radio" name="gender" id="gender" required>
+            </div> -->
+            <div class="feedback"><label for="text">Feedback</label>
+                <textarea name="Feedback" id="feedback" class="feed" rows="5" cols="30">
+            </textarea>
+            </div>
+            <marquee behavior="scroll" direction="right">Take Aware On Action</marquee>
+            <div class="login">
+                <button id="login">Log In</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

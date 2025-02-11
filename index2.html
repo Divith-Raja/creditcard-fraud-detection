@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+        /* top: 0.50px; */
+        /* position: fixed; */
+        width: 100%;
+        background-color: #23486A;
+
+    }
+
+    #homeicon {
+        color: white;
+        font-size: 40px;
+        margin-top: 5px;
+        margin-right: 20px;
+        float: right;
+    }
+
+    #homeicon:hover {
+        color: rgb(128, 128, 128);
+        transform: scale(0.90);
+        transition-duration: 0.50s;
+    }
+
+    .section {
+        margin-top: 50px;
+        /* background-color: aqua; */
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .logo {
+        margin-left: 20px;
+        width: 200px;
+    }
+
+    .sectionleft {
+        margin-right: 80px;
+        width: 100%;
+        /* background-color: #23486A; */
+    }
+
+    .h2sectionleft {
+        margin-top: 50px;
+        /* background-color: aqua; */
+        text-align: center;
+        font-weight: bold;
+        color: #155E95;
+    }
+
+    .sectionright {
+        margin-left: 50px;
+        margin-bottom: 50px;
+        margin-right: 80px;
+        /* border-radius: 20px; */
+        /* background-color: #155E95; */
+        box-shadow: 2px 2px 2px 2px#155E95;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        /* text-align: center; */
+        /* display: flex; */
+        float: right;
+    }
+
+    .psection {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 1.50rem;
+        font-weight: 500;
+    }
+
+    .sectionrighttitle {
+        margin-top: 40px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .sectionrightpara {
+        font-weight: 500;
+    }
+
+    .form {
+        gap: 90px;
+    }
+
+    #formname {
+        margin-top: 20px;
+        border: solid #EAFAEA 0.50px;
+        border-radius: 15px;
+        height: 40px;
+    }
+
+    #formname:hover {
+        border: #23486A solid 1px;
+        transition-duration: 1s;
+        box-shadow: 2px 2px #23486A;
+    }
+
+    #formname2 {
+        border: solid #EAFAEA 0.50px;
+        border-radius: 15px;
+        height: 40px;
+    }
+
+    #formname2:hover {
+        border: #23486A solid 1px;
+        transition-duration: 1s;
+        box-shadow: 2px 2px #23486A;
+    }
+
+    #formname3 {
+        margin-top: 30px;
+        border: solid #EAFAEA 0.50px;
+        border-radius: 15px;
+        height: 40px;
+    }
+
+    #formname3:hover {
+        border: #23486A solid 1px;
+        transition-duration: 1s;
+        box-shadow: 2px 2px #23486A;
+    }
+
+    #formname4 {
+        margin-top: 30px;
+        border: solid #EAFAEA 0.50px;
+        border-radius: 15px;
+        height: 40px;
+    }
+
+    #formname4:hover {
+        border: #23486A solid 1px;
+        transition-duration: 1s;
+        box-shadow: 2px 2px #23486A;
+    }
+
+    #formname5 {
+        margin-top: 30px;
+        border: solid #EAFAEA 0.50px;
+        border-radius: 15px;
+        height: 40px;
+    }
+
+    #formname5:hover {
+        border: #23486A solid 1px;
+        transition-duration: 1s;
+        box-shadow: 2px 2px #23486A;
+    }
+
+    #formname6 {
+        margin-top: 30px;
+        border: solid #EAFAEA 0.50px;
+        border-radius: 15px;
+        height: 40px;
+    }
+
+    #formname6:hover {
+        transition-duration: 1s;
+        box-shadow: 2px 2px #23486A;
+        border: #23486A solid 1px;
+    }
+
+    #feedback {
+        border: solid #EAFAEA 0.50px;
+        border-radius: 15px;
+        width: 440px;
+        margin-top: 30px;
+        font-weight: 700;
+    }
+
+    #feedback:hover {
+        transition-duration: 1s;
+        box-shadow: 2px 2px #23486A;
+        border: #23486A solid 1px;
+    }
+
+    #formbutton {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border: solid 1px;
+        background-color: #23486A;
+        color: white;
+        border-radius: 15px;
+        font-weight: bold;
+        font-size: 15px;
+        height: 40px;
+        width: 200px;
+    }
+
+    #formbutton:hover {
+        transition-duration: 1s;
+        box-shadow: 2px 2px #155E95;
+        border: white solid 1px;
+    }
+
+    .footer2 {
+        gap: 5rem;
+        margin-top: 30px;
+        /* margin: 0px; */
+        padding: 50px;
+        height: 100%;
+        width: 100%;
+        background: url(/creditcardfrauddetection/creditcardimages/fraud-dot-net-background-dots-bottom-sm.jpg);
+        color: white;
+    }
+
+    .footer2content {
+        gap: 5rem;
+    }
+
+    .footer2title {
+        font-size: 50px;
+        gap: 90px;
+        text-align: center;
+    }
+
+    .footer2icon {
+        color: white;
+        transition-property: all;
+        font-size: 50px;
+        gap: 5rem;
+        text-align: center;
+    }
+
+    .footer2copyright {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    @media screen and (max-width:1000px) {
+        .section {
+            display: inline-block;
+
+        }
+
+        .sectionright {
+            margin-left: 90px;
+            width: 360px;
+            display: inline-block;
+        }
+
+        #feedback {
+            width: 300px;
+        }
+
+        #formname {
+            margin-bottom: 30px;
+        }
+
+        .sectionrighttitle {
+            font-size: 20px;
+        }
+
+        .sectionrightpara {
+            font-size: 13px;
+        }
+
+        .h2sectionleft {
+            font-size: 25px;
+        }
+
+        .psection {
+            font-size: 20px;
+            margin-bottom: 80px;
+        }
+
+
+        .footer2title {
+            font-size: 25px;
+        }
+
+        .footer2icon {
+            font-size: 25px;
+        }
+
+        .footer2copyright {
+            font-size: 10px;
+        }
+    }
+</style>
+
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <header>
+        <img class="logo" src="/creditcardfrauddetection/creditcardimages/credit card logo.png" alt=""><a
+            href="/creditcardfrauddetection/index.html"><i class="fa-solid fa-circle-chevron-left" id="homeicon"
+                type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left"
+                data-bs-title="Linkdin"></i></a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-md">
+            </div>
+        </nav>
+    </header>
+    <section class="section">
+        <div class="sectionleft">
+            <h1 class="h2sectionleft">Reduce Risk.<br>
+                Lower Costs.<br>
+                Boost Compliance.</h1>
+            <p class="psection">
+                ✓ Full-stack Fraud, AML and KYC Platform<br>
+                ✓ Real-time Transaction Monitoring<br>
+                ✓ New Account & Application Screening
+            </p>
+        </div>
+        <div class="sectionright">
+            <h3 class="sectionrighttitle">Schedule a Free Demo</h3>
+            <p class="sectionrightpara">Get Awareness On Credit Card Fraud Incident.</p>
+            <div class="form">
+                <input type="text" placeholder="FirstName" style="font-weight: 700;" id="formname">
+                <input type="text" placeholder="LastName" style="font-weight: 700;" id="formname2"><br>
+                <input type="text" placeholder="Business email" style="font-weight: 700;" id="formname3">
+                <input type="text" placeholder="Company" style="font-weight: 700;" id="formname4"><br>
+                <input type="text" placeholder="Phone Number" style="font-weight: 700;" id="formname5">
+                <input type="text" placeholder="My Global Region" style="font-weight: 700;" id="formname6">
+                <textarea name="textarea" id="feedback" cols="30" rows="3"
+                    placeholder="If Something You Interested..."></textarea><br>
+                <button id="formbutton">START NOW</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer2">
+        <div class="footer2content">
+            <h3 class="footer2title">Creditcard Fraud Dectection</h3>
+        </div>
+        <div class="footer2icon">
+            <a href="#"><i class="bx bxl-linkedin" type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
+                    data-bs-placement="left" data-bs-title="Linkdin"></i></a>
+            <a href="#"><i class="bx bxl-gmail" type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
+                    data-bs-placement="top" data-bs-title="Gmail"></i></a>
+            <a href="#"><i class="bx bxl-facebook" type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
+                    data-bs-placement="top" data-bs-title="Facebook"></i></a>
+            <a href="#"><i class="bx bxl-whatsapp" type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-title="Whatsapp"></i></a>
+        </div>
+        <div class="footer2copyright">
+            Copyrights © 2025 All Rights Reserved by Fraud.net Inc.<br>
+            Terms of Use | Privacy Policy | Security & Compliance | CSR & ESG Statement
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+
+</html>
